@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.emojitest.MainActivity">
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_marginRight="60dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:background="#9c9c9c"
+        android:id="@+id/ll"
+        android:layout_above="@id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+        <ImageView
+            android:id="@+id/iv_emoji_0"
+            android:layout_weight="1"
+            android:src="@mipmap/emoji_0"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <ImageView
+            android:id="@+id/iv_emoji_1"
+            android:layout_weight="1"
+            android:src="@mipmap/emoji_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <ImageView
+            android:id="@+id/iv_emoji_2"
+            android:layout_weight="1"
+            android:src="@mipmap/emoji_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <ImageView
+            android:id="@+id/iv_emoji_3"
+            android:layout_weight="1"
+            android:src="@mipmap/emoji_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <ImageView
+            android:id="@+id/iv_emoji_4"
+            android:layout_weight="1"
+            android:src="@mipmap/emoji_4"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <ImageView
+            android:id="@+id/iv_emoji_5"
+            android:layout_weight="1"
+            android:src="@mipmap/emoji_5"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <ImageView
+            android:id="@+id/iv_emoji_6"
+            android:layout_weight="1"
+            android:src="@mipmap/emoji_6"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <ImageView
+            android:id="@+id/iv_emoji_7"
+            android:layout_weight="1"
+            android:src="@mipmap/emoji_7"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <ImageView
+            android:id="@+id/iv_emoji_8"
+            android:layout_weight="1"
+            android:src="@mipmap/emoji_8"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <ImageView
+            android:id="@+id/iv_emoji_9"
+            android:layout_weight="1"
+            android:src="@mipmap/emoji_9"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <ImageView
+            android:id="@+id/iv_emoji_10"
+            android:layout_weight="1"
+            android:src="@mipmap/emoji_10"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_above="@id/ll"
+        android:layout_margin="10dp"
+        android:id="@+id/tv_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="发送"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+
+</RelativeLayout>
